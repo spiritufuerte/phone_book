@@ -1,10 +1,10 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import classes from './Home.module.css';
 
 const Home = () => {
     return (
-        <div>
-            dsadasdasdads
+        <div className={classes.text}>
+        <h1>Phone book</h1>
         </div>
     )
 }

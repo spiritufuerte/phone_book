@@ -14,8 +14,6 @@ const Header = () => {
             <div className={classes.item}>
                 <NavLink to='/about' activeClassName={classes.active}>About</NavLink>
             </div>
-
-
         </nav>
     )
 }
